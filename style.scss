@@ -23,26 +23,54 @@
     justify-content: center;
     align-items: top;
     padding: 24px;
-
+    box-shadow: 8px 8px black;
     .card-content{
+        // border: 1px solid black;
         display: flex;
         flex-direction: column;
         gap: 24px;
+        justify-content: space-between;
         img{
             width: 100%;
             border-radius: 10px;
         }
+        .banner{
+            // border: 1px solid black;
+
+        }
     }
 
     .content-text{
+        // border: 1px solid black;
         display: flex;
         flex-direction: column;
+        gap: 12px;
         .button{
             // border: 1px solid red;
             width: fit-content;
             background-color: hsl(47, 88%, 63%);
             border-radius: 4px;
             padding: 4px 12px ;
+        }
+        span{
+            font-size: 14px;
+        }
+        .description{
+            font-size: 16px;
+            color: hsl(0, 0%, 50%);
+        }
+        
+    }
+    .profile{
+        // border: 1px solid black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: fit-content;
+        gap: 12px;
+        img{
+            width: 32px;
+            height: 32px;
         }
     }
 }
